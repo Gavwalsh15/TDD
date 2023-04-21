@@ -18,4 +18,11 @@ public void testAdd(){
      myCalc = new Calculator();
      assertEquals(40, myCalc.add(20,20));
     }
+
+
+    @Test
+    public void testMultiply(){
+        myCalc = new Calculator();
+        assertEquals(4, myCalc.multiply(2,2));
+    }
 }
