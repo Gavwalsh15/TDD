@@ -12,4 +12,10 @@ public class calcTest {
      myCalc = new Calculator();
      assertEquals(0, myCalc.sub(20,20));
     }
+
+@Test
+public void testAdd(){
+     myCalc = new Calculator();
+     assertEquals(40, myCalc.add(20,20));
+    }
 }
