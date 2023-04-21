@@ -25,4 +25,9 @@ public void testAdd(){
         myCalc = new Calculator();
         assertEquals(4, myCalc.multiply(2,2));
     }
+
+    public void testDivide(){
+        myCalc = new Calculator();
+        assertEquals(10, myCalc.divide(20,2));
+    }
 }
